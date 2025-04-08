@@ -1,5 +1,5 @@
 {% set name = "skelly-viewer" %}
-{% set version = "2024.12.1026" %}
+{% set version = "2025.4.1028" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skelly_viewer-{{ version }}.tar.gz
-  sha256: 83c82c84009ae88917d46ebecbc2aabd8dfdd2807a25d2c24fe4de3a59113971
+  sha256: 34398a698b6afcf230f853048e76d9c647cd89663171ef0372eb3ea16a8f5f65
 
 build:
   entry_points:
